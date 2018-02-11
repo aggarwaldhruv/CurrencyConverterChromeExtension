@@ -1,4 +1,5 @@
-# CurrencyConverterChromeExtensionTest Cases and Execution Document
+# CurrencyConverterChromeExtension
+Test Cases and Execution Document
 Execution Steps: 
 1.	Go to chrome://extensions/ and check the box for Developer mode in the top right.
 2.	Click on Load unpacked extension button and select the folder “Currency Converter Extension” to install it.
