@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Currency Conversion</title>
+    <style type="text/css">
+      body {
+        margin: 10px;
+        white-space: nowrap;
+        padding: 15px;
+        font-size: 15px;
+        align-items: center;
+      }
+    </style>
+    <script src="./js/currencyConverter.js"></script>
+  </head>
+  <body>
+    <div id="container-fluid ">
+		<table style="table-layout: auto">
+			<caption><label>Enter From and To currency below</label></caption>
+			<thead>
+				<tr>
+					<th><label>From Currency</label></th>
+					<th><label>To Currency</label></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><input style="width:90%" class="form-control input-sm" type="text" id="fromCcy"></td>
+					<td><input style="width:90%" class="form-control input-sm" type="text" id="toCcy"></td>
+				</tr>
+			
+			 	<tr> <td colspan="2">	<input style="width:100%" id="submit" type="submit" ></td> </tr>
+			 	
+			 	<tr>
+					<td><label>Result</label></td>
+					<td style="word-wrap: break-word"><label id="result"></label></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body></html>

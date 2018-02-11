@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+
+  "name": "Currency Converter",
+  "description": "This extension fetches the currency rate.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "images/cc-home-logo.png",
+    "default_popup": "CurrencyConverter.html"
+  }
+}
