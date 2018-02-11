@@ -14,32 +14,61 @@ Currency Converter API used: Foreign exchange rates and currency conversion API 
 
 
 Test Cases
+
 1	No input is given	Click on Currency Converter Extension
+
 From Currency : Null
+
 To Currency : Null
+
 Click on Submit	Result shown as "Invalid Input"
+
 2	Only one currency is entered i.e either From currency or To currency	Click on Currency Converter Extension
+
 From Currency : Null/AUD
+
 To Currency : Null/USD
+
 Click on Submit	Result shown as "Invalid Input"
+
 3	Length of currency entered is more than 3	Click on Currency Converter Extension
+
 From Currency : AUST
+
 To Currency : INRS
+
 Click on Submit	Result shown as "Invalid Input"
+
 4	To Currency entered is incorrect	Click on Currency Converter Extension
+
 From Currency : USD
+
 To Currency : INS
+
 Click on Submit	Result shown as "To Currency is not valid value."
+
 5	From Currency entered value is incorrect	Click on Currency Converter Extension
+
 From Currency : USS
+
 To Currency : INR
+
 Click on Submit	Result shown as "Invalid base"
+
 6	If extension is not able to reach the currency conversion API	Click on Currency Converter Extension
+
 From Currency : USD
+
 To Currency : INR
+
 Click on Submit	Result shown as "Some error occurred while fetching conversion rate"
+
 7	For Correct Input 	Click on Currency Converter Extension
+
 From Currency : USD
+
 To Currency : INR
+
 Click on Submit	Result shown as " Conversion Rate 1 AUD = 0.79418 USD"
+
 
